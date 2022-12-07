@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>QR Scan</title>
+</head>
+<body>
+    <div class="flex justify-center align-middle pt-[300px]">
+        <h1>
+        Escaneame :) 
+    </h1>
+    </div>
+    <div class="flex justify-center align-middle">
+        <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
+        <div class="mx-auto max-w-3xl">
+            <img src="{{ url_for('static', filename='img/qr_penguin.png') }}" width="250" height="250" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>

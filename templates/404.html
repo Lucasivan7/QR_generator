@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex min-h-full flex-col bg-white lg:relative">
+        <div class="flex flex-grow flex-col">
+          <main class="flex flex-grow flex-col bg-white">
+            <div class="mx-auto flex w-full max-w-7xl flex-grow flex-col px-4 sm:px-6 lg:px-8">
+              <div class="flex-shrink-0 pt-10 sm:pt-16">
+                <a href="/" class="inline-flex">
+                  <span class="sr-only">Pingü Tiste</span>
+                  <img class="w-40 h-40" src="https://media-exp1.licdn.com/dms/image/C560BAQF3dBw2H85lNw/company-logo_200_200/0/1551455455504?e=2147483647&v=beta&t=P3XABxt5zWUsl1a5xcPBnwSeeJkkh15oFW75KkGp8eg" alt="">
+                </a>
+              </div>
+              <div class="my-auto flex-shrink-0 py-16 sm:py-32">
+                <p class="text-base font-semibold text-indigo-600">404</p>
+                <h1 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Page not found</h1>
+                <p class="mt-2 text-base text-gray-500">You shall not pass.</p>
+                <div class="mt-6">
+                  <a href="#" class="text-base font-medium text-indigo-600 hover:text-indigo-500">
+                    Go back home
+                    <span aria-hidden="true"> &rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer class="flex-shrink-0 bg-gray-50">
+            <div class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+              <nav class="flex space-x-4">
+                <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-600">Contact Support</a>
+                <span class="inline-block border-l border-gray-300" aria-hidden="true"></span>
+                <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-600">Status</a>
+                <span class="inline-block border-l border-gray-300" aria-hidden="true"></span>
+                <a href="#" class="text-sm font-medium text-gray-500 hover:text-gray-600">Twitter</a>
+              </nav>
+            </div>
+          </footer>
+        </div>
+        <div class="hidden lg:absolute lg:inset-y-0 lg:right-0 lg:block lg:w-1/2">
+          <img class="absolute inset-0 h-full w-full object-cover" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABnlBMVEX///8uL13OHk8pLE/tJlH8vhH//v/8//////0uL1suMFkAAADs7OwuL14pLE4rLFz2+fgmKE/z8/P///rLH0/8vw/UHU8mL179ugAZGVIoKVouLmAjJFfqJ1HuJk8rMVx0KVfBw8tGSF/e4eX/xQUVF0UAADodH1AfIFYAAEINDUw5OV4cHkkoMlnS09gcMF7LAELehJm1uMDJyc+np7VycopPT2yRkKIXFFBxdYv28OEXGU77+eHvzWL01IRtbYD22X7vrwBjY34cHDqFhpL65qwLCxUoKi0DEVjjrR74xycAA0s+PUaVnbKjhz747ruGhoXz1JL4zVJwbW6ysbL7yynVnSjjv2b75br6xjgVGD4AACUWGCkSImN3YkMMETNYVlloW0yRcklAQDzAmyvJkS8aGhrWpiQ1N1O9kjdHPk87NVFMTnVLJ1FhL1ryrbnydInrQGKVK1rsWXefKlP50tl/K1D0xM6gJFi4I1PvAED65OjJHVjsgZTxpbFALlMPNFXNRWdpKVvba4jotsLXbIzr3saojFCXdUD00EjCkIpaAAAPV0lEQVR4nO2dj1/aZh7HEyx5khQMEAgkgGhBoSrgb1HUtlZ3p9va1bvr7HZ2W3e9dndVW9d2rTqdq9vt/uv7PuFXfgGJFRK8fNrXq76UQt5+v8/31/MQCMKVK1euXLly5cqVK1euXLly5cqVK1euXLly5cqVK1euXLm6FNEETcM/oXRhemhoOu0LVL55hQSEhZnZsYSIVS6J3Nz89NUBBJLQ1KxUzkokQ5JMKsWwDMPlStx8umJZ/Bj4giYoey/0YsII07OiKHGkVlxCXPDVHoUotMj3pt+GZtjhIKvDk8UkyjPyg4BsaXmF7i1CmqbgetMLpRwX9xvRMSTDjo+LtwieJ9Di7TsxnqB6ihD7Z2F1NGFsPZL0+5nxu2vj/uwchZZWYndi68juK7as9OqoxDLNAJn+u5/8iShkU3++tRKJbXg3UW8ZkCACa59yRt4pK8WO3Pjs+vXr08Tn5XuZSGRjM3af4u2+ZGuayubIJvEFJM0ViC+AMM0/2Ix4ATCyhVDP5Aqc1kKrJaYFICkWCIr6y2d/XY/EvJHIM28ktkj3UJihiWmpaYBpECLi/t9iXq838hAAvzR6Hqci08TMqD69k7Am/VyiujJzMwTa3ozFwEO9ABiJ9E/pnygd6v7Ftxf+tS+USGUEZcFbWT8bDAa/ujGfZeQf5aL3HwEYGPDOwzsxb+ZeTkyrazZ4orWvZgjaeYuTJ2bL6gzBsmxf/92v7/79k+vXfUMl4JV2Hm+A+YAvs/HQC6HUy8RJJqSKpeCic+PlubRdHC00W07lNYR3v/n6xlQBQuf1b4m1BCl9twFU2IBeAARlnhRZf25V9TQQr4J9/cHhIZswmokm5kua9ccE735zowDlNyb8nkiL5M4/MB4GfPhQ/mJDisMvojSj7hjTw32gEYMFap/As4Y+1eYIpq+vjH0tgAm/IIgxTvouUwF7+kz+IvM4Ki/VUbVLTsmEfSOOsiLtK5G6Oobxiz5sm8L3/wRAYk4iRZnv4cM7GWzJyLMdXJr7Ge65yoYL4zJhcMRBa5EmVg3zoJiuXzlFvODIxJPIxtOnG7IhwYTfStXHZecVT4aeB/sqiDdsQGmmqZJhoS3WHY0mQhxH+nM/PN3wVtZixPtkp2ZsUumn6ZH+CmFftYe0XzRNs3FDQkkRJqdEzPKvTUCT/94bSzRWrvSi8cCZ8Rph33ig+zRGglpGZIxr0XLdiIExHDZZ6d9PvZlM5NkTNsGwiv9Tmqr781wdsH/YIUakiTFSH2dk9+PGCziIQI5bxRaLs0wid/rtv8gdKR5nlYQkg6opwzfcIByfc8bkkZ4uGxoQixPnYYn5pthGJOLiBsMNJleb21RzRdWIPkcQErOS7orr8ifEXLZcNqjI1YRkNlQpRVeDDcK+YWek/YDBwLAh2ReZZjONhnJyxqB9ChNCqJlv9+Jd0XS56dDCgrhK4JwZVxIGV9u9eFc036brNamsvBJvBFWEzkj6L5qkCovixiCqFOrpvkL43G44EB1SJbaPEE6eayondQhhWjQRR1qJYaScWBJz0CiGVD7qFC8dEj/OdJBP5maGCkMzqzd9U8Mawjm76eSSLfdRgFxptlZ2p4duaG24YCtcVR8VSllJmm5MDzVxBvLhjBNqmlYVTVuJcz5F6akjHB5yAuHqhQm5RGkeEXxjmpjWEEJd6gBAPJ1oJ4bkcuVyaRRUEsVyNpdISAmxlFjQzCl8asL+/jF7kDR63q6qBmOV5+anCmkfKF0YmpqZX1hYmJ+Z1o22QxrC8TU7gHQaa0PIpiTJ5NhMS1h2xritHSEjjflMPlVoWL0OHTLFaEfIJXxmN5MC4yrCcUdkw7aEbMm8qwXUVenIdAcv24LaEHK3zKe0gLqkcULZjTXXmrCcvijhsCMKGqJdPpSsdOlKwv7gsFO2EFvXNKKVgK+yoUNmNOBHs60qb46x4mlKwuBIwBk+SrfuLRKWDKEkdMwqbNMfipYOkyoIg0GnbOXTxFTziTdEUkvHKhqE/TedUbAR8hma5lMMVrI2hWgQZm916HqtChGITpeiUc5PMkzKr50Mszlr8bBa0/T3B/ud4aEERUED69vd29vbPU0Vo3ntzI21lCvqdWl/30jaGVGGQEf7L18dDoCuXRPCB7v5qJqQKVvbiq/2Fv03p50QRxEKnP94eAhsVQGmcMAU83GFDUvW2p9KfxiUo4ztiAjtv1Lg1SCTr6OKY0MMae1J5SnG+F3bLSgHgTeYL6mgSyZlxAFht0HIWdw6So9AKbPqs92AFEWgSa39kng1Jt+/3WMUXmqtoiGIws2R507YE6VQ6EcDBxVe75FF/K6RBmH2c2vPXFgdsj9LIBqho+RhUkE4gNff+718NMWykBJTCkKLZykcca4UMuCbw6TGQcNv88W8wRabxXRI+Oy3II6hP6kMCCZM/losMqzRJqJYsBYyzM7kOihEYUAl3bXkQTHa5DgNWeo9QgAcUFoQHHS32Hx/NGdxHdpNCEkCvcFWqxswKbzLN31zDM4Ws9ZewW5CRBFHAwoXTQrCgbJG04tjLb0AZTchgXzJgZqLQhEqeAbz8XwrQla0dM0BW7MFBUEm9GqgakNwVSEsDBb9qZY2ZMSCldcI2btNgRD6sRFDBU9YOGgRYyryW0v5NqdDCr2su+g1weOBINP2kAljrTC1eRminw/rMRQAPe/z7U+zxTlLcxqbCfdrxTaEUAAUdqNtAUmGYSy8gq2BhoZitBZkYAmGwxMHxVaJsE6YC5mvakJ2EqKj2hpMJj1hsGCYMXfismRhpBSyM9AEXiWv1S2IffSgZR5sSLRwIMa+ZQh54mUtisoWBJ2aPI6Ys7D7YB8hhcNofRHKet82FdYIP3c+ISLQPgBWjFjh8whvuZSWxRg5sWaa0LZQSqE31ZZ3IFnlCwunca2XxnXIsixsAdtWs6F6PwGlaNWGYb2TMqQhojRn2ob2hFJcbifloT2uZGqAsAy1ePG3g4Y25MyfTLNnGdJQbtfCaANQT8j8cnxQNCQ03yHaQ4iIl7ViTQEovNYSFgcFLXWVMGja92wgpFC93B64JngagGGdDeMez7EhIZkwHSFtIIRFOHl4TZUHm3hp9C383BCQzJm98O4nCxpc9OSwUo5CJaNAhK+L6vFhKgzf3O01QrDg/mHVQ8MetYSUsvBm8oM4R/5q1E75TU9qut9ZYECc6QeqxbaKcM+vSIipPLawYBhM/aZt2O2Ej2hsQcj1A4LOgpgmpcjv0UHZhd99HGGXhzQ0hU7wDigUaoKOD4eaXxQztvx7vDh14ceil3Y7lEKakI8fQD9vRCicNmwY3RNkQsEwXZi3YUd5NEIoIG+BJnULsOGmNRyGLL6rmFkgWYPhqel82F3CN3j0qw8wCsLj2qSNIU+Fip0hXRh0UJLZANItQgRJgoI8L8/TWiEOVtuLfPR1dakKe1F942/+9GWXCBEF7eDxhGF0Ues4X2mXmFTt1yAMGmwDm+8tukSIDTjRynYNI76tGLGaKjzydErvpdyL9i8qqzslTcWA7ekqRmTld8cWX9cN/tpgeAM9vjkv7Q4hQpNmHLQCKLzLg1f6T5V9sb7NT8ybJOxG0YYIeQWa8NCqV/6aZ5jogYLQYB2anrV1vGijAHB/wqBAa2VGNs5GFf/j+Bd9PiybnZd2oSxFH8yFGIURX+eZPWVXZTAHL5ndIu0kIYW3d9HR2USTCq0F4kHxQLludXs1DFN2QOENdMD3m+kQo7CZIOyprH6qjTQMI5m9jI62Fkf7ZxMTFs1XQVS1/h7PrpYwbjoddi7hH02eeSYuYD8jQdmmIUyZ3+XuHOGEx1oAtUTIZE2fFu0YITqzFj9bEuomNRZOsneKEBHnZqs0E4SD2h6YyZq+ks7ZEB1fIqHWhpL5c22dI7xEI+oJLdw0r5MZ/8OlRRodYcn8G0o62VuELidXGBBa2Frr5LlEhH6aCF8KpJaQlcy2TlidI6QoWIqX4qg6wqyVg+wdnGIgAhAvw4jCoLpqY0etXHVH5zTU5SBqMr6ftfKup85OMfDxZtPzmRaE6qrNH7RyyruzUwxoEAlqcqI5Y3UgOlGRIMgzYN3aFTS9haWT+p3emMFDjKOfmzJiruOzDz9PnpycTE5+ODvD39D/Hk7VHXDZyo07Oj8upXCff3JcbRTDSjrhbPL8SHHaBREodHQ+eSZDKi2p7vEZC/m+ezvAAPkhXPNF+Z/jyTfGL46oo/0PANnIpcfqWRvzqYVPV+navgwYEqqLn87BF0En5+dv4BuGH7EBaRR+4DtpbAEIB5p9C9MTDADs2gYwTdPaXzzd5POm8BvVEd6n+q2yJMPCIKciNP1efNre08HthULn2LMFYY9RxdKEyXsg8RQAOuFteU2EKByjaBx5TtWn983NaFDAt71F8w4mVCjFqWJp0/spBAIhkM+3uLj4++/rX0Zit7t5lR8jLaEu4QdC+J50vlBo6dFmpKJYLBaJrdtxtRfRi5aEQBcKVJ1xKVa797wX/sSWbLjYC2lVUkUacUrRHYZU+WApVv14BPkzBGKL3b/Wi2lNfcMoBSHlU6cDFWFss2c+d20mq/LSUv2tFiFtxcLHvArC5Z4hnBYZQxv6dPmc9yoJV7p+pRdVaNTQS/WAGhtu234bE9NS35uuEksDRo0frbRhpGcCDV6IOkLdEpSFFIHUu8n3zKcD0ulR5b3LcdVmDEjQOJTGMN/2bQg0PUNIqe+wn1szWoKyeChmIg9wxufR8koPfYYlPZNVECZmF5utMB5suE5ter1bFE8t9RAhEeIScTbFwl8mJeX+86iZ+9EZSBHodiT2AKfCHgIk+K17n+3kdhLczk7uu2eZrWaPQ5Fliue3I70URiuityKZjR/+ePz4jx82Mt5I056B/i/P0zTvfcT3kv1kbeGP/suA5GDZtGeQ8wOFlm/3lIfKWlZU1N7mFTVPAyLNb2/3UpCRhZaV1djtptdP4Rt3gpvyDrmBp3mhZUXBGVvvNQOZkJpwkeqZtsi00EqdMOJ91CsTNCtSEG5CTr+ShN7Kh/16NyOx+732qfemtB7zbmdgCT540EMTNEta966jR2DDpUXv1tULMyC0fRuhrUhsmSIerVxJQmqJ59FKxLtNUA+27b6YjoiGcoxfj21Bubnk2I+A/1jR1FJs/eplCYVogs9cxSyhEM2v91w9bVFQrF1tGxKEk7esXbly5cqVK1euXLly5cqVK1euXLly5cqVK1euXLn6/9b/AFl22yCdUjpkAAAAAElFTkSuQmCC" alt="Pingü Volador">
+        </div>
+      </div>
+</body>
+</html>
+
+
+<!--
+  This example requires updating your template:
+
+  ```
+  <html class="h-full">
+  <body class="h-full">
+  ```
+-->
